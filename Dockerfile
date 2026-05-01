@@ -1,4 +1,4 @@
-FROM node:20.20.2-alpine3.23 As builder
+FROM node:20.20.2-alpine3.23 AS builder
 # this creates /app and move there
 WORKDIR /app
 COPY package.json .
